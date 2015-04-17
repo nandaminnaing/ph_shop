@@ -1,0 +1,140 @@
+/* 
+    Document   : main
+    Created on : Dec 19, 2012, 1:18:58 PM
+    Author     : nanda.minnaing
+    Description: Purpose of the stylesheet follows.
+
+    Name            : Nanda Min Naing
+    Course          : ST8016
+    Class           : SECT\VC\1A\02
+    Admission No    : P1257506
+*/
+
+root { 
+    display: block;
+}
+body
+{
+    font-family: Tahoma;
+    font-size: smaller;
+}
+.maintable{
+    border-color:whitesmoke;
+    border-style: solid; 
+    border-width: 1px;
+}
+#td_category
+{
+    vertical-align: middle;
+    height: 40px;
+    background-color:lightgray;
+    font-size:small;
+}
+.label
+{
+    font-size: smaller; 
+}
+.banner
+{
+    background-image: url('images/bg_banner.jpg'); 
+    background-repeat: repeat-x;        
+}
+.navigator 
+{
+    text-decoration: none;
+    color: whitesmoke;
+    cursor:pointer;
+}
+.navigator a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#td_product
+{
+    font-size:smaller;
+}
+#td_product tr td
+{
+    font-size:smaller;
+}
+#td_cart table tr td
+{
+    font-size:smaller;
+}
+#td_login table tr td
+{
+    font-size:smaller;
+}
+#td_myinfo table
+{
+    font-size:7pt; 
+    color: blueviolet;
+    font-weight: bold;
+}
+.img_privacy_info
+{
+    font-size:xx-small;
+    text-align:center;
+}
+.welcomeuser
+{
+    font-size:smaller;
+    color: whitesmoke;
+}
+.welcomeuser a
+{
+    color: whitesmoke;
+}
+.phonebox
+{
+    font-size:11pt;
+}
+.checkouttable
+{
+    font-size:9pt;
+}
+.checkoutheader
+{
+    font-weight: bold;
+    background-color: grey;
+    color:whitesmoke;
+}
+.checkoutitemrow{
+    background-color: lightgrey;
+}
+.checkoutitemalternaterow{
+    background-color: darkgrey;
+    color:whitesmoke;
+}
+.checkoutitemalternaterow a{
+    color:whitesmoke;
+}
+.paymenttable
+{
+    font-size:9pt;
+}
+.paymentheader
+{
+    font-size:9pt;
+    background-color: grey;
+    font-weight: bold;
+    color:whitesmoke;
+    padding: 5px;
+}
+.loginheader
+{
+    vertical-align: middle;
+    background-color:lightgray;
+    font-size:small;
+    font-weight: bold;
+    color: grey;
+    padding: 3px;
+}
+.imgfooterlink 
+{
+    text-decoration: none;
+    font-weight: bold;
+    color:red;
+    cursor:pointer;
+}
